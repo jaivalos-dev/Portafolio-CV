@@ -1,0 +1,162 @@
+{
+    "basics": {
+      "name": "Javier Avalos",
+      "label": "Analista de QA",
+      "image": "./perfil.png",
+      "email": "jaivalos.dev@gmail.com",
+      "phone": "+502 4837-1180",
+      "url": "https://github.com/jaivalos-dev",
+      "summary": "Actualmente me encuentro laborando en Banco Inustrial como Analista de QA. Me interesa de sobre manera el mundo de las pruebas automatizadas con Java y Selenium, estoy incursionando en proyectos personales a modo de aprendizaje de las tecnologías.",
+      "location": {
+        "address": "6ta Avenida, 3-95 Zona 18",
+        "postalCode": "01018",
+        "city": "Guatemala",
+        "countryCode": "GT",
+        "region": "Guatemala"
+      },
+      "profiles": [
+          {
+            "network": "GitHub",
+            "username": "jaivalos.dev",
+            "url": "https://github.com/jaivalos-dev"
+          },
+          {
+            "network": "LinkedIn",
+            "username": "Javier Avalos",
+            "url": "https://www.linkedin.com/in/javier-alejandro-avalos-galindo/"
+          }
+    ]
+    },
+    "work": [{
+      "name": "Banco Industrial",
+      "position": "Analista de QA",
+      "url": "https://www.corporacionbi.com/gt/bancoindustrial/",
+      "startDate": "03-06-2024",
+      "endDate": null,
+      "summary": "Actualmente soy analista de control de calidad para la banca personal y empresarial del Banco Industrial. Soy encargado de revisar la web y app en base a los requerimientos técnicos de los proyectos, además de generar casos de pruebas para los nuevos proyectos.",
+      "highlights": ""
+    },
+    {
+      "name": "Cámara de Comercio de Guatemala",
+      "position": "Asesor técnico - comercial de Firma-e",
+      "url": "https://firma-e.com.gt/",
+      "startDate": "2022-08-01",
+      "endDate": "2024-05-31",
+      "summary": "Fui encargado de gestionar, organizar y ejecutar gran parte del área comercial de Firma Electrónica Avanzada. Trabajé mayormente proyectos con entidades del estado como pueden ser: superintendencias, ministerios, secretarías y/o municipalidades.  Además me encargué de revisar las características a nivel técnico de los servidores de las entidades.",
+      "highlights": [
+        "Participación en la creación de los traspasos electrónicos de vehículos. -SAT-",
+        "Encargado de la migración de clientes de Firma-e a un nuevo proveedor de servicios.",
+        "Participación en el proyecto interno del DIGECAM de firmas electrónicas."
+      ]
+    },
+    {
+      "name": "Cámara de Comercio de Guatemala",
+      "position": "Asistente de informática",
+      "url": "https://firma-e.com.gt/",
+      "startDate": "2021-07-13",
+      "endDate": "2022-07-31",
+      "summary": "Comencé labores en el área de informática para desarrollar mis habilidades y reforzar mi carrera, fui encargado de realizar el mantenimiento de todas las computadoras, monitores, laptops, impresoras y cualquier dispositivo electrónico de la Cámara de Comercio. Fuí responsable del manejo de las cuentas de Azure, Zoom, RPost y Google Workspace. Encargado de realizar las compras de firma-e las cuales están regidas por normas ISO 9001 y 27001. Además de controlar las cámaras, reuniones y pedidos de compra del departamento de informática.",
+      "highlights": [
+        "Participación en la migración del CRM de la Cámara de Comercio de Guatemala."
+      ]
+    }
+  ],
+    "education": [{
+      "institution": "Universidad Mariano Gálvez de Guatemala",
+      "url": "https://umg.edu.gt/",
+      "area": "Ingeniería en Sistemas",
+      "studyType": "Licenciatura",
+      "startDate": "2020-01-01",
+      "endDate": null
+    },
+    {
+      "institution": "Instituto Tecnológico de Computación ITC",
+      "url": "https://itc.edu.gt/",
+      "area": "Perito en electrónica dígital y microprocesadores",
+      "studyType": "Secundaria",
+      "startDate": "2018-01-01",
+      "endDate": null
+    }],
+    "awards": [{
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }],
+    "certificates": [{
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }],
+    "publications": [{
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }],
+    "skills": [{
+      "name": "Desarrollo WEB",
+      "level": "Junior",
+      "keywords": ["HTML", "CSS", "JavaScript", "Python"]
+    },
+    {
+      "name": "Pruebas manuales",
+      "level": "Medio",
+      "keywords": ["Casos de prueba", "Criterios de aceptación"]
+    },
+    {
+      "name": "Automatización de pruebas",
+      "level": "Junior",
+      "keywords": ["Selenium", "Automatización", "Java"]
+    },
+    {
+      "name": "Java para automatización",
+      "level": "Junior",
+      "keywords": ["Java", "Selenium", "Programación"]
+    },
+    {
+      "name": "Python",
+      "level": "Junior",
+      "keywords": ["Python", "Programación"]
+    },
+    {
+      "name": "Soporte técnico",
+      "level": "Junior",
+      "keywords": ["Soporte"]
+    }],
+    "languages": [{
+      "language": "English",
+      "fluency": "Medium"
+    }],
+    "interests": [{
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }],
+    "references": [{
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }],
+    "projects": [{
+      "name": "Analizador léxico y sintáctico",
+      "isActive": false,
+      "startDate": "2024-03-01",
+      "endDate": "2024-05-31",
+      "description": "Proyecto universitario en el cual se realizó un analizador léxico y sintáctico desde 0 utilizando Python y JS.",
+      "highlights": ["Python", "JavaScript"],
+      "url": "https://github.com/jaivalos-dev/Analizador-lexico-y-sintactico"
+    },
+    {
+      "name": "Proyecto de aprendizaje de Selenium",
+      "isActive": true,
+      "startDate": "2024-09-01",
+      "endDate": "2024-10-01",
+      "description": "Proyecto autodidacta destinado al aprendizaje del WebDriver Selenium, de tal manera se estudian los conceptos básicos para trabajar con el.",
+      "highlights": ["Selenium", "Java"],
+      "url": "https://github.com/jaivalos-dev/Proyecto-de-aprendizaje-de-Selenium"
+    }]
+  }

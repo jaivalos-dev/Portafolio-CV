@@ -1,0 +1,96 @@
+---
+import Section from "@/components/Section.astro";
+
+import { projects } from "@cv";
+import type { map } from "astro:schema";
+---
+
+<Section title="Proyectos">
+
+    <ul>
+        {
+            projects.map(({ url, description, highlights, name, isActive }) => {
+                return (
+                    <li>
+                        <article>
+                            <header>
+                                <h3>
+                                    <a href={ url } title={`Ver el proyecto ${name}`} >
+                                        {name}
+                                    </a>
+                                    { isActive && <span>&bull;</span> }
+                                </h3>
+                                <p>{description}</p>
+                            </header>
+                            <footer>
+                                    {
+                                        highlights.map((highlight) => {
+                                            return (
+                                                <span>{highlight}</span>
+                                            )
+                                        })
+                                    }
+                            </footer>
+                        </article>
+                    </li>
+                )
+            })
+        }
+    </ul>
+
+</Section>
+
+<style>
+    ul{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 1rem;
+    }
+
+    article{
+        border-radius: 8px;
+        border: 1px solid #d0cdcd;
+        gap: 16px;
+        display: flex;
+        flex-direction: column;
+        padding: 16px;
+        height: 100%;
+    }
+
+    article header{
+        flex: 1;
+    }
+
+    article h3{
+        margin-bottom: 4px;
+    }
+
+    article h3 span{
+        color: #24b12e;
+    }
+
+    article a{
+        color: #111;
+    }
+
+    article a:hover{
+        text-decoration: underline;
+    }
+
+    footer{
+        display: flex;
+        gap: 4px;
+        flex-wrap: wrap;
+        font-size: 0.6rem;
+    }
+
+    footer span{
+        border-radius: 6px;
+        background: #ccc;
+        color: #444;
+        font-size: 0.8rem;
+        font-weight: 500;
+        padding: 0.2rem 0.5rem;
+        letter-spacing: 0.02rem;
+    }
+</style>
