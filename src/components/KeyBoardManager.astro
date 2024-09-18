@@ -47,7 +47,7 @@ const profilesInfo = profiles.map(({ network, url }) => {
 ---
 
 
-<footer class="no_print">
+<footer class="no_print phone">
     Pulsa <kbd>Ctrl</kbd> + <kbd>K</kbd> para abrir la paleta de comandos.
 </footer>
 
@@ -143,4 +143,11 @@ hideBreadcrumbs>
     ninja-keys{
         letter-spacing: 0.01rem;
     }
+
+    @media (max-width: 546px){
+		.phone{
+			display: none;
+
+		}
+	}
 </style>

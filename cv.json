@@ -158,5 +158,14 @@
       "description": "Proyecto autodidacta destinado al aprendizaje del WebDriver Selenium, de tal manera se estudian los conceptos básicos para trabajar con el.",
       "highlights": ["Selenium", "Java"],
       "url": "https://github.com/jaivalos-dev/Proyecto-de-aprendizaje-de-Selenium"
+    },
+    {
+      "name": "CartFood",
+      "isActive": true,
+      "startDate": "2024-03-01",
+      "endDate": null,
+      "description": "CartFood es una carta digital para restaurantes y comedores, la cual permite a los clientes ver el menú, solicitar la cuenta, reservar mesas y realizar pedidos desde su dispositivo móvil.",
+      "highlights": ["Django", "React"],
+      "url": "https://github.com/Jmanu14-35/CartFood"
     }]
   }
