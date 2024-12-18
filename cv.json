@@ -6,7 +6,7 @@
       "email": "jaivalos.dev@gmail.com",
       "phone": "+502 4837-1180",
       "url": "https://github.com/jaivalos-dev",
-      "summary": "Actualmente me encuentro laborando en Banco Inustrial como Analista de QA. Me interesa de sobre manera el mundo de las pruebas automatizadas con Java y Selenium, estoy incursionando en proyectos personales a modo de aprendizaje de las tecnologías.",
+      "summary": "Actualmente, me desempeño como Analista de QA en Banco Industrial, donde tengo la oportunidad de contribuir al aseguramiento de la calidad en diversos procesos. Mi principal interés radica en el área de las pruebas automatizadas utilizando Java y Selenium, tecnologías en las que estoy profundizando a través de proyectos personales para continuar mi aprendizaje y mejorar mis habilidades técnicas.",
       "location": {
         "address": "6ta Avenida, 3-95 Zona 18",
         "postalCode": "01018",
@@ -66,7 +66,7 @@
       "url": "https://umg.edu.gt/",
       "area": "Ingeniería en Sistemas",
       "studyType": "Licenciatura",
-      "startDate": "2020-01-01",
+      "startDate": "2022-01-01",
       "endDate": null
     },
     {
@@ -74,8 +74,8 @@
       "url": "https://itc.edu.gt/",
       "area": "Perito en electrónica dígital y microprocesadores",
       "studyType": "Secundaria",
-      "startDate": "2018-01-01",
-      "endDate": null
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01"
     }],
     "awards": [{
       "title": "Award",
@@ -117,9 +117,9 @@
       "keywords": ["Java", "Selenium", "Programación"]
     },
     {
-      "name": "Python",
+      "name": "Selenium",
       "level": "Junior",
-      "keywords": ["Python", "Programación"]
+      "keywords": ["Selenium", "Automatización"]
     },
     {
       "name": "Soporte técnico",
@@ -141,7 +141,26 @@
       "name": "Jane Doe",
       "reference": "Reference…"
     }],
-    "projects": [{
+    "projects": [
+    {
+      "name": "Pruebas Automatizadas Banca en Linea",
+      "isActive": false,
+      "startDate": "2024-09-01",
+      "endDate": "2024-10-01",
+      "description": "A través de este proyecto, se busca profundizar en el uso de Selenium WebDriver para simular interacciones del usuario en una página web en producción, permitiendo así entender mejor los flujos de trabajo de prueba.",
+      "highlights": ["Selenium", "Java", "ExtentReports"],
+      "url": "https://github.com/jaivalos-dev/Automatizacion-de-login-y-generacion-de-reporte-ExtentReport"
+    },  
+    {
+      "name": "Aprendizaje de herramienta ExtentReports",
+      "isActive": false,
+      "startDate": "2024-09-01",
+      "endDate": "2024-10-01",
+      "description": "Proyecto autodidacta destinado al aprendizaje de la herramienta ExtentReports para la generación de reportes de pruebas automatizadas.",
+      "highlights": ["Selenium", "Java", "ExtentReports"],
+      "url": "https://github.com/jaivalos-dev/Automatizacion-de-login-y-generacion-de-reporte-ExtentReport"
+    },
+    {
       "name": "Analizador léxico y sintáctico",
       "isActive": false,
       "startDate": "2024-03-01",
@@ -149,23 +168,5 @@
       "description": "Proyecto universitario en el cual se realizó un analizador léxico y sintáctico desde 0 utilizando Python y JS.",
       "highlights": ["Python", "JavaScript"],
       "url": "https://github.com/jaivalos-dev/Analizador-lexico-y-sintactico"
-    },
-    {
-      "name": "Proyecto de aprendizaje de Selenium",
-      "isActive": true,
-      "startDate": "2024-09-01",
-      "endDate": "2024-10-01",
-      "description": "Proyecto autodidacta destinado al aprendizaje del WebDriver Selenium, de tal manera se estudian los conceptos básicos para trabajar con el.",
-      "highlights": ["Selenium", "Java"],
-      "url": "https://github.com/jaivalos-dev/Proyecto-de-aprendizaje-de-Selenium"
-    },
-    {
-      "name": "CartFood",
-      "isActive": true,
-      "startDate": "2024-03-01",
-      "endDate": null,
-      "description": "CartFood es una carta digital para restaurantes y comedores, la cual permite a los clientes ver el menú, solicitar la cuenta, reservar mesas y realizar pedidos desde su dispositivo móvil.",
-      "highlights": ["Django", "React"],
-      "url": "https://github.com/Jmanu14-35/CartFood"
     }]
   }
